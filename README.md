@@ -1,2 +1,2 @@
 # Kacper Basinski Portfolio #
-Some description.
+Some description!
