@@ -1,0 +1,90 @@
+/* #mouse-pointer {
+  width: 30px;
+  height: 30px;
+  border-radius: 0% 100% 30% 70% / 0% 70% 30% 100%;
+  background: linear-gradient(145deg, #000000, #535353);
+  position: absolute;
+  left: var(--mouse-x);
+  top: var(--mouse-y);
+  caret-color: transparent;
+} */
+
+*,
+body {
+  cursor: url("blob-cursor.png"), auto;
+}
+
+/* gradient background */
+/* #wave-header {
+  background: linear-gradient(-45 deg, #303030, #252525, #000000, #363636);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+} */
+
+/* ------Gradient Background------- */
+
+#kacper-basinski,
+#profile-image,
+.socials {
+  display: inline;
+}
+
+#profile-image {
+  border-radius: 45% 45% 0 0;
+  width: 132px;
+  height: 142px;
+}
+
+/* Social Media Links */
+.socials {
+  font-size: 3em;
+}
+.fa-linkedin {
+  color: #0a66c2;
+  transition: ease-in-out 0.1s;
+}
+.fa-github {
+  color: black;
+  transition: ease-in-out 0.1s;
+}
+.fa-github:hover,
+.fa-linkedin:hover {
+  transform: scale(1.2);
+  transition: ease-in-out 0.1s;
+}
+/* End of Social Media Links */
+
+/* container for projects */
+#projects > div {
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 4em;
+  overflow: hidden;
+  transition: ease-in 0.3s;
+}
+#projects > div:hover {
+  height: 14em;
+  transition: ease-in 0.3s;
+}
+
+#projects > div > h2 {
+  display: inline;
+}
+
+/* #projects > div > *,
+#projects > div > h2 {
+  display: none;
+} */
